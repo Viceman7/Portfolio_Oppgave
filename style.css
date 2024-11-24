@@ -1,0 +1,194 @@
+@font-face {
+  font-family: MerriweatherRegular;
+  src: url(Fonts/Merriweather-Regular.ttf);
+}
+
+body {
+  background-color: #183946;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0b1a2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fefffe;
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+}
+
+.navbar-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0px;
+}
+
+.navbar-right ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px;
+  transition: color 0.3s;
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+}
+
+.navbar-right ul li a:hover {
+  background-color: #00aced;
+}
+
+.main-section {
+  text-align: center;
+  margin: 50px;
+}
+
+.main-title {
+  font-family: MerriweatherRegular;
+  font-size: 40px;
+  margin-bottom: 22px;
+  color: #fefffe;
+}
+
+.main-text {
+  font-family: MerriweatherRegular;
+  font-size: 26px;
+  color: #fefffe;
+}
+
+.main-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.card {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-icon {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: MerriweatherRegular;
+  font-size: 36px;
+  color: #fefffe;
+  margin: 15px;
+}
+
+.card-text {
+  text-align: left;
+  font-family: MerriweatherRegular;
+  font-size: 16px;
+  color: #fefffe;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.article-title1 {
+  text-align: center;
+  color: #92dce5;
+  font-family: MerriweatherRegular;
+  font-size: 40px;
+}
+
+.article-text1 {
+  text-align: left;
+  padding: 100px;
+  margin: 50px;
+  color: #92dce5;
+  font-family: MerriweatherRegular;
+  font-size: 20px;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 50px 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  text-align: center;
+  width: 22%;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  margin: 10px;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  text-align: left;
+  font-family: MerriweatherRegular;
+  color: #92dce5;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.site-footer {
+  background-color: #000;
+  color: #92dce5;
+  text-align: center;
+  font-family: MerriweatherRegular;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+}
